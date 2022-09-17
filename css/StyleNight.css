@@ -1,0 +1,43 @@
+body{
+    font-family: Arial;
+    color: White;
+    position: relative;
+    background: Black;
+}
+a:link{color:Black; text-decoration: none;}
+a:visited{color:Black;}
+a:hover{color:Darkgreen;}
+a:active{color:Darkgreen;}
+.index-header{
+    width: 100%;
+    height: 100%;
+    background-color: Transparent;
+    text-align: center;
+    line-height: 600px;
+    margin: auto;
+    font-family: Arial;
+    font-size: 18px;
+    letter-spacing: 0.2px;
+    user-select: none;
+}
+#index-a{
+    text-align: center;
+    margin: auto;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+#index-kb{
+    width: 100%;
+    height: 100%;
+    background-color: Transparent;
+    text-align: center;
+    line-height: 500px;
+    margin: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: Monospace;
+    font-size: 50px;
+    font-weight: lighter;
+    letter-spacing: 0.5px;
+    user-select: text;
+}
