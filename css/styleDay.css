@@ -1,0 +1,110 @@
+@import url('fonts.css');
+body{
+    width: auto;
+    height: auto;
+    margin: 0;
+    font-family: Inter;
+    font-size: 16px;
+    position: relative;
+    color: #1e272e;
+    background-color: #d2dae2;
+}
+header{
+    width: 100%;
+    padding: 20px;
+    font-size: 22px;
+    position: fixed;
+    top: 0;
+    background-color: #d2dae2;
+    user-select: none;
+}
+    #header-span{
+        margin-right: 30px;
+        font-size: 55px;
+        font-weight: 600;
+        user-select: text;
+    }
+    #header-span-a{
+        margin-right: 30px;
+        font-size: 55px;
+        font-weight: 600;
+    }
+    #header-a{
+        margin-left: 6px;
+        margin-right: 8px;
+    }
+    #header-span-mark{
+        margin-left: 6px;
+        margin-right: 8px;
+        color: #005500;
+    }
+a:link{color: #1e272e; text-decoration: none;}
+a:visited{color: #1e272e;}
+a:hover{color: #005500;}
+a:active{color: #005500;}
+.div-root{
+    width: auto;
+    height: auto;
+    max-width: fit-content;
+    padding-left: 60px;
+    padding-top: 140px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+}
+    .div-root-contact{
+        width: auto;
+        height: auto;
+        padding-top: 28px;
+        float: left;
+        line-height: 145%;
+        font-size: 17px;
+        user-select: none;
+    }
+        #div-root-contact-span{
+            user-select: text;
+        }
+    .div-root-content{
+        width: auto;
+        height: auto;
+        padding-left: 50px;
+        float: right;
+        right: 0;
+    }
+        .div-root-content-edu{
+            width: auto;
+            height: auto;
+            padding-right: 50px;
+            float: left;
+        }
+            .div-root-content-eduDetail{
+                width: auto;
+                height: auto;
+                padding-bottom: 2px;
+                line-height: 40%;
+            }
+        .div-root-content-other{
+            width: auto;
+            height: auto;
+            padding-left: 50px;
+            float: right;
+        }
+            .div-root-content-other-pro{
+                width: auto;
+                height: auto;
+            }
+                .div-root-content-other-proDetail{
+                    width: auto;
+                    height: auto;
+                    padding-bottom: 2px;
+                    line-height: 40%;
+                }
+            .div-root-content-res{
+                width: auto;
+                height: auto;
+            }
+                .div-root-content-resDetail{
+                    width: auto;
+                    height: auto;
+                    padding-bottom: 2px;
+                    line-height: 40%;
+                }
