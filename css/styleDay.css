@@ -11,8 +11,8 @@ body{
 }
 header{
     width: 100%;
-    padding: 20px;
-    font-size: 22px;
+    padding: 25px;
+    font-size: 20px;
     position: fixed;
     top: 0;
     background-color: #d2dae2;
@@ -20,13 +20,13 @@ header{
 }
     #header-span{
         margin-right: 30px;
-        font-size: 55px;
+        font-size: 50px;
         font-weight: 600;
         user-select: text;
     }
     #header-span-a{
         margin-right: 30px;
-        font-size: 55px;
+        font-size: 50px;
         font-weight: 600;
     }
     #header-a{
@@ -42,6 +42,7 @@ a:link{color: #1e272e; text-decoration: none;}
 a:visited{color: #1e272e;}
 a:hover{color: #005500;}
 a:active{color: #005500;}
+/* A&C */
 .div-root{
     width: auto;
     height: auto;
@@ -50,6 +51,7 @@ a:active{color: #005500;}
     padding-top: 140px;
     padding-right: 40px;
     padding-bottom: 40px;
+    font-size: 100%;
 }
     .div-root-contact{
         width: auto;
@@ -73,7 +75,7 @@ a:active{color: #005500;}
         .div-root-content-edu{
             width: auto;
             height: auto;
-            padding-right: 50px;
+            padding-right: 80px;
             float: left;
         }
             .div-root-content-eduDetail{
@@ -85,7 +87,6 @@ a:active{color: #005500;}
         .div-root-content-other{
             width: auto;
             height: auto;
-            padding-left: 50px;
             float: right;
         }
             .div-root-content-other-pro{
