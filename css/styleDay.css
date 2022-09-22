@@ -4,7 +4,7 @@ body{
     height: auto;
     margin: 0;
     font-family: Inter;
-    font-size: 16px;
+    font-size: 14px;
     position: relative;
     color: #1e272e;
     background-color: #d2dae2;
@@ -47,19 +47,19 @@ a:active{color: #005500;}
     width: auto;
     height: auto;
     max-width: fit-content;
-    padding-left: 60px;
+    padding-left: 40px;
     padding-top: 140px;
     padding-right: 40px;
     padding-bottom: 40px;
-    font-size: 100%;
 }
     .div-root-contact{
         width: auto;
         height: auto;
         padding-top: 28px;
         float: left;
+        left: 0;
         line-height: 145%;
-        font-size: 17px;
+        font-size: 14px;
         user-select: none;
     }
         #div-root-contact-span{
@@ -75,7 +75,7 @@ a:active{color: #005500;}
         .div-root-content-edu{
             width: auto;
             height: auto;
-            padding-right: 80px;
+            padding-right: 60px;
             float: left;
         }
             .div-root-content-eduDetail{
