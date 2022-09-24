@@ -7,8 +7,18 @@ body{
     font-size: 14px;
     position: relative;
     color: #1e272e;
-    background-color: #d2dae2;
+    background-color: #dcdde1;
 }
+    .body-index{
+    width: auto;
+    height: auto;
+    margin: 0;
+    font-family: Inter;
+    font-size: 14px;
+    position: relative;
+    color: #1e272e;
+    background-color: #d2dae2;
+    }
 header{
     width: 100%;
     padding: 25px;
@@ -32,6 +42,10 @@ header{
     #header-a{
         margin-left: 6px;
         margin-right: 8px;
+    }
+    #header-a-right{
+        padding-left: 40%;
+        text-align: right;
     }
     #header-span-mark{
         margin-left: 6px;
@@ -127,3 +141,49 @@ a:active{color: #005500;}
                     padding-bottom: 2px;
                     line-height: 40%;
                 }
+/* content */
+.div-coRoot{
+    width: auto;
+    height: auto;
+    max-width: fit-content;
+    padding-left: 40px;
+    padding-top: 110px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    user-select: none;
+}
+    .div-coRoot-coDirectory{
+        width: 240px;
+        height: auto;
+        float: right;
+        position: fixed;
+        right: 40px;
+        font-size: 12px;
+    }
+        .div-coRoot-coDirectoryContent{
+            height: 440px;
+            padding-left: 6px;
+            overflow:auto;
+        }
+    .div-coRoot-coContent{
+        width: auto;
+        height: auto;
+        padding-right: 320px;
+        float: left;
+        word-break:break-all;
+    }
+        #div-coRoot-coNotice-h1{
+            text-align: center;
+        }
+        .div-coRoot-coNotice{
+            width: auto;
+            height: auto;
+            padding-top: 10px;
+            font-weight: 800;
+            text-align: center;
+            color: #c23616;
+        }
+            #div-coRoot-coNotice-p{
+                line-height: 1px;
+                color: Transparent;
+            }
