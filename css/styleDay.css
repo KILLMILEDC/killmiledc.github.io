@@ -3,7 +3,7 @@ body{
     width: auto;
     height: auto;
     margin: 0;
-    font-family: Inter;
+    font-family: Inter, Noto Sans SC, Noto Sans TC;
     font-size: 14px;
     position: relative;
     color: #1e272e;
@@ -13,8 +13,6 @@ body{
     width: auto;
     height: auto;
     margin: 0;
-    font-family: Inter;
-    font-size: 14px;
     position: relative;
     color: #1e272e;
     background-color: #d2dae2;
@@ -170,8 +168,10 @@ a:active{color: #005500;}
         width: auto;
         height: auto;
         padding-right: 320px;
+        padding-bottom: 60px;
         float: left;
         text-align: justify;
+        word-wrap: break-word;
         word-break:break-all;
     }
         .div-coRoot-coNotice{
