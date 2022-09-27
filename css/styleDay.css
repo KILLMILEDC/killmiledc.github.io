@@ -143,7 +143,7 @@ a:active{color: #005500;}
 .div-coRoot{
     width: auto;
     height: auto;
-    max-width: fit-content;
+    max-width: max-content;
     padding-left: 40px;
     padding-top: 110px;
     padding-right: 40px;
@@ -152,7 +152,7 @@ a:active{color: #005500;}
     user-select: none;
 }
     .div-coRoot-coDirectory{
-        width: 240px;
+        width: 220px;
         height: auto;
         float: right;
         position: fixed;
@@ -167,12 +167,12 @@ a:active{color: #005500;}
     .div-coRoot-coContent{
         width: auto;
         height: auto;
-        padding-right: 320px;
+        padding-right: 300px;
         padding-bottom: 60px;
         float: left;
         text-align: justify;
-        word-wrap: break-word;
-        word-break:break-all;
+        /*word-wrap: break-word;*/
+        word-break:keep-all;
     }
         #div-coRoot-coContent-h1{
             text-align: center;
