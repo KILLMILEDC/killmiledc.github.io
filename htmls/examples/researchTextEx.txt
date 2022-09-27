@@ -41,6 +41,46 @@
                 </div>
                 <h1 id="div-coRoot-coContent-h1">1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111</h1>
                 <p id="div-coRoot-coContent-dateAndMark">2022-xx-xx | xx | EN & xx</p>
+                <div class="div-coRoot-coContent-form">
+                    <table width="100%" border="1" cellspacing="0">
+                        <tr>
+                            <td></td>
+                            <td colspan="3"><b>Title</b></td>
+                        </tr>
+                        <tr>
+                            <td>Original content</td>
+                            <td colspan="3"></td>
+                        </tr>
+                        <tr>
+                            <td>Translated into English</td>
+                            <td colspan="3"></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><b>The journal name</b></td>
+                            <td><b>The journal type</b></td>
+                            <td><b>Date of publication</b></td>
+                        </tr>
+                        <tr>
+                            <td>Original content</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Translated into English</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td colspan="4"><b>Languages supported by downloadable files</b></td>
+                        </tr>
+                        <tr>
+                            <td colspan="4"></td>
+                        </tr>
+                    </table>
+                </div>
                 <h4></h4>
                 <p>1111111111111111111111111111111111111111111111111111111111111111111111111111111111111</p>
                 <br>
