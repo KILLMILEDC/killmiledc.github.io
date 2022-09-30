@@ -143,7 +143,7 @@ a:active{color: #005500;}
 .div-coRoot{
     width: auto;
     height: auto;
-    max-width: max-content;
+    max-width: fit-content;
     padding-left: 40px;
     padding-top: 110px;
     padding-right: 40px;
@@ -173,15 +173,18 @@ a:active{color: #005500;}
         text-align: justify;
         /*word-wrap: break-word;*/
         word-break:keep-all;
+        user-select: text;
     }
         #div-coRoot-coContent-h1{
             text-align: center;
+            user-select: none;
         }
         #div-coRoot-coContent-dateAndMark{
             font-size: 12px;
             line-height: 0px;
             text-align: center;
             color: #485460;
+            user-select: none;
         }
         #div-coRoot-coContent-chageWord{
             color: #959ca4;
@@ -194,6 +197,7 @@ a:active{color: #005500;}
             font-weight: 800;
             text-align: center;
             color: #c23616;
+            user-select: none;
         }
             #div-coRoot-coNotice-p{
                 line-height: 0px;
