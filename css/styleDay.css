@@ -163,7 +163,7 @@ a:active{color: #005500;}
     padding-top: 110px;
     padding-right: 40px;
     padding-bottom: 40px;
-    font-size: 16px;
+    font-size: 1.6rem;
     user-select: none;
 }
     .div-coRoot-coDirectory{
@@ -172,7 +172,7 @@ a:active{color: #005500;}
         float: right;
         position: fixed;
         right: 40px;
-        font-size: 12px;
+        font-size: 1.2rem;
     }
         .div-coRoot-coDirectoryContent{
             height: 440px;
@@ -195,7 +195,7 @@ a:active{color: #005500;}
             user-select: none;
         }
         #div-coRoot-coContent-dateAndMark{
-            font-size: 12px;
+            font-size: 1.2rem;
             line-height: 0px;
             text-align: center;
             color: #485460;
@@ -208,7 +208,7 @@ a:active{color: #005500;}
             width: auto;
             height: auto;
             padding-top: 10px;
-            font-size: 14px;
+            font-size: 1.4rem;
             font-weight: 800;
             text-align: center;
             color: #c23616;
@@ -223,7 +223,7 @@ a:active{color: #005500;}
             height: auto;
             padding-top: 40px;
             padding-bottom: 20px;
-            font-size: 14px;
+            font-size: 1.4rem;
             line-height: 150%;
             text-align: center;
         }
