@@ -1,12 +1,18 @@
 @import url('fonts.css');
-body{
+html{
     width: auto;
     height: auto;
     margin: 0;
     font-family: Inter, Noto Sans SC, Noto Sans TC;
-    font-size: 14px;
+    font-size: 10px;
     position: relative;
     color: #1e272e;
+}
+body{
+    width: auto;
+    height: auto;
+    margin: 0;
+    position: relative;
     background-color: #dcdde1;
 }
     .body-index{
@@ -14,13 +20,12 @@ body{
     height: auto;
     margin: 0;
     position: relative;
-    color: #1e272e;
     background-color: #d2dae2;
     }
 header{
     width: 100%;
     padding: 25px;
-    font-size: 20px;
+    font-size: 2rem;
     position: fixed;
     top: 0;
     background-color: #d2dae2;
@@ -28,7 +33,7 @@ header{
 }
     #header-span{
         margin-right: 30px;
-        font-size: 50px;
+        font-size: 5rem;
         font-weight: 600;
         user-select: text;
     }
@@ -62,9 +67,19 @@ a:active{color: #005500;}
     padding-top: 140px;
     padding-right: 40px;
     padding-bottom: 40px;
+    font-size: 1.4rem;
 }
 /* projects */
     .div-root-proContent{
+        width: auto;
+        height: auto;
+        padding-left: 20px;
+        padding-bottom: 2px;
+        line-height: 40%;
+        user-select: none;
+    }
+/* blogs */
+    .div-root-blogContent{
         width: auto;
         height: auto;
         padding-left: 20px;
