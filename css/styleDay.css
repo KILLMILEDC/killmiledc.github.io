@@ -52,32 +52,22 @@ a:focus{transition: color .3s ease-in-out; color: #005500;}
 a:hover{color: #005500;}
 a:active{color: #005500;}
 .div-root{
-    max-width: fit-content;
-    padding-left: 40px;
+    padding-left: 80px;
     padding-top: 140px;
-    padding-right: 40px;
+    padding-right: 80px;
     padding-bottom: 40px;
     font-size: 1.4rem;
 }
 /* projects */
     .div-root-proContent{
-        padding-left: 20px;
-        padding-bottom: 2px;
-        line-height: 40%;
         user-select: none;
     }
 /* blogs */
     .div-root-blogContent{
-        padding-left: 20px;
-        padding-bottom: 2px;
-        line-height: 40%;
         user-select: none;
     }
 /* researches */
     .div-root-resContent{
-        padding-left: 20px;
-        padding-bottom: 2px;
-        line-height: 40%;
         user-select: none;
     }
 /* A&C */
