@@ -5,25 +5,24 @@ html{
     margin: 0;
     font-family: Inter, Noto Sans SC, Noto Sans TC;
     font-size: 10px;
-    position: relative;
     color: #1e272e;
 }
 body{
     margin: 0;
-    position: relative;
     background-color: #dcdde1;
 }
     .body-index{
-    margin: 0;
-    position: relative;
-    background-color: #d2dae2;
+        background-color: #d2dae2;
     }
 header{
-    width: 100%;
-    padding: 25px;
+    padding-left: 40px;
+    padding-top: 30px;
+    padding-bottom: 25px;
     font-size: 2rem;
     position: fixed;
+    left: 0;
     top: 0;
+    right: 0;
     background-color: #d2dae2;
     user-select: none;
 }
@@ -42,10 +41,6 @@ header{
         margin-left: 6px;
         margin-right: 8px;
     }
-    #header-a-right{
-        padding-left: 40%;
-        text-align: right;
-    }
     #header-span-mark{
         margin-left: 6px;
         margin-right: 8px;
@@ -53,6 +48,7 @@ header{
     }
 a:link{color: #1e272e; text-decoration: none;}
 a:visited{color: #1e272e;}
+a:focus{transition: color .3s ease-in-out; color: #005500;}
 a:hover{color: #005500;}
 a:active{color: #005500;}
 .div-root{
