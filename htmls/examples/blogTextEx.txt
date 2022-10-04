@@ -36,8 +36,7 @@
             </div>
             <div class="div-coRoot-coContent">
                 <div class="div-coRoot-coNotice">
-                    <p><b>The text, illustrations, etc. contained in this page and affiliated links follow <a>Partially open sharing protocol</a>.</b></p>
-                    <p id="div-coRoot-coNotice-p">111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111</p>
+                    <p><b>The text, illustrations, etc. contained in this page and affiliated links follow <a>Partially open sharing protocol</a>.</b></p>  
                 </div>
                 <h1 id="div-coRoot-coContent-h1">1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111</h1>
                 <p id="div-coRoot-coContent-dateAndMark">2022-xx-xx | xx | EN & xx</p>
