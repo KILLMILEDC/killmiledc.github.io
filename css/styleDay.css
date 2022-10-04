@@ -1,6 +1,6 @@
 @import url('fonts.css');
 html{
-    width: 100%;
+    width: auto;
     height: auto;
     margin: 0;
     font-family: Inter, Noto Sans SC, Noto Sans TC;
@@ -126,10 +126,9 @@ a:active{color: #005500;}
                 }
 /* content */
 .div-coRoot{
-    max-width: fit-content;
-    padding-left: 40px;
+    padding-left: 80px;
     padding-top: 110px;
-    padding-right: 40px;
+    padding-right: 80px;
     padding-bottom: 40px;
     font-size: 1.6rem;
     user-select: none;
@@ -147,9 +146,9 @@ a:active{color: #005500;}
             overflow:auto;
         }
     .div-coRoot-coContent{
-        padding-right: 300px;
+        /*padding-right: 300px;*/
         padding-bottom: 60px;
-        float: left;
+        /*float: left;*/
         text-align: justify;
         /*word-wrap: break-word;*/
         word-break:keep-all;
@@ -177,10 +176,6 @@ a:active{color: #005500;}
             color: #c23616;
             user-select: none;
         }
-            #div-coRoot-coNotice-p{
-                line-height: 0px;
-                color: Transparent;
-            }
         .div-coRoot-coContent-form{
             padding-top: 40px;
             padding-bottom: 20px;
