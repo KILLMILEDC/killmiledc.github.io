@@ -16,7 +16,7 @@ body{
     }
 header{
     padding-left: 40px;
-    padding-top: 30px;
+    padding-top: 25px;
     padding-bottom: 25px;
     font-size: 2rem;
     position: fixed;
@@ -28,13 +28,13 @@ header{
 }
     #header-span{
         margin-right: 30px;
-        font-size: 5rem;
+        font-size: 5.2rem;
         font-weight: 600;
         user-select: text;
     }
     #header-span-a{
         margin-right: 30px;
-        font-size: 50px;
+        font-size: 5.2rem;
         font-weight: 600;
     }
     #header-a{
@@ -117,7 +117,7 @@ a:active{color: #005500;}
 /* content */
 .div-coRoot{
     padding-left: 80px;
-    padding-top: 110px;
+    padding-top: 120px;
     padding-right: 80px;
     padding-bottom: 40px;
     font-size: 1.6rem;
