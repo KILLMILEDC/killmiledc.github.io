@@ -3,7 +3,7 @@ html{
     width: auto;
     height: auto;
     margin: 0;
-    font-family: Inter, Noto Sans SC, Noto Sans TC;
+    font-family: /*Inter,*/ Ubuntu, Noto Sans SC, Noto Sans TC;
     font-size: 10px;
     color: #1e272e;
 }
@@ -56,7 +56,7 @@ a:active{color: #005500;}
     padding-top: 140px;
     padding-right: 80px;
     padding-bottom: 40px;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
 }
 /* projects */
     .div-root-proContent{
