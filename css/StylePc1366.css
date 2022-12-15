@@ -83,6 +83,6 @@ h1{
   }
 a:link{color: #283654; text-decoration: none;}
 a:visited{color: #283654;}
-a:focus{transition: color .5s ease-in-out; color: #4e6b2d;}
-a:hover{color: #4e6b2d;}
-a:active{color: #4e6b2d;}
+a:focus{transition: color .5s ease-in-out; color: #1f640a;}
+a:hover{color: #1f640a;}
+a:active{color: #1f640a;}
