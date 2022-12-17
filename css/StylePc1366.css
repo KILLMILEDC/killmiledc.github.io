@@ -52,6 +52,23 @@ h1{
     grid-auto-flow: row;
   }
 }
+.div-root-about{
+  max-width: 1000px;
+  padding: 8vh 8vw;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  grid-column-gap: 10vw;
+}
+@media only screen and (max-width: 850px) {
+  .div-root-about{
+    padding: 10vw;
+    position: initial;
+    grid-row-gap: 5vh;
+    grid-template-columns: 1fr;
+    grid-auto-flow: row;
+  }
+}
   header{
     width: 100%;
     height: 100%;
@@ -93,9 +110,17 @@ h1{
     justify-content: center;
   }
   .div-rootEducationExperience{
-    margin-left: 10%;
+    /*margin-left: 10%;*/
     font-size: 1.5rem;
+    text-align: left;
+    align-items: left;
+    justify-content: left;
   }
+    .div-rootEducationExperienceDetails{
+      margin-top: 1.5rem;
+      margin-bottom: 1.5rem;
+      line-height: 2rem;
+    }
 a:link{color: #283654; text-decoration: none;}
 a:visited{color: #283654;}
 a:focus{transition: color .5s ease-in-out; color: #1f640a;}
