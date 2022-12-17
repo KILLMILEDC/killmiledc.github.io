@@ -23,15 +23,30 @@ html{
   font-size: 62.5%;
   color: #283654;
 }
+.html-others{
+  height: auto;
+}
 body{
   min-height: 100%;
   margin: 0;
   align-items: center;
   justify-content: center;
   display: flex;
-  background-image: linear-gradient(275deg, #f8f8f8 0%, #ccdce7 100%);
+  background-image: linear-gradient(275deg, #f8f8f8 0%, #c2d5e2 100%);
   background-size: cover;
   background-attachment: fixed;
+}
+.body-others{
+  height: auto;
+  max-height: max-content;
+  text-align: center;
+  justify-content: normal;
+  /*display: grid;*/
+}
+@media only screen and (max-width: 850px){
+  .body-others{
+    justify-content: center;
+  }
 }
 h1{
   padding: 0;
@@ -54,6 +69,17 @@ h1{
     grid-auto-flow: row;
   }
 }
+.div-root-research{
+  max-width: 1000px;
+  padding: 4vh 4vw;
+  font-size: 1.5rem;
+}
+@media only screen and (max-width: 850px){
+  .div-root-research{
+    padding: 10vw;
+    position: initial;
+  }
+}
 .div-root-about{
   max-width: 1000px;
   padding: 8vh 8vw;
@@ -62,7 +88,7 @@ h1{
   grid-template-columns: 2fr 3fr;
   grid-column-gap: 10vw;
 }
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 850px){
   .div-root-about{
     padding: 10vw;
     position: initial;
@@ -79,10 +105,26 @@ h1{
     display: flex;
     flex-direction: column;
   }
-    .headerContact{
+    .header-NormalHeader{
+      padding-bottom: 5rem;
+      text-align: left;
+      align-items: normal;
+      justify-content: normal;
+      display: flex;
+    }
+    @media only screen and (max-width: 850px){
+      .header-NormalHeader{
+        padding-bottom: 2rem;
+        text-align: left;
+        align-items: normal;
+        justify-content: normal;
+        display: grid;
+      }
+    }
+    .header-Contact{
       padding-top: 10%;
     }
-    .headerPersonalDetails{
+    .header-PersonalDetails{
       margin-top: 15%;
       margin-bottom: 10%;
       font-size: 1.5rem;
@@ -92,7 +134,7 @@ h1{
       align-items: left;
       justify-content: left;
     }
-    #headerTitle{
+    #header-Title{
       font-size: 3rem;
       user-select: none;
       font-weight: 600;
@@ -101,7 +143,7 @@ h1{
       display: flex;
       flex-direction: column;
     }
-  .div-rootMenu{
+  .div-root-Menu{
     font-size: 1.7rem;
     line-height: 5rem;
     user-select: none;
@@ -111,14 +153,19 @@ h1{
     flex-direction: column;
     justify-content: center;
   }
-  .div-rootEducationExperience{
+  .div-root-research-Content{
+    /*max-width: 2rem;*/
+    text-align: justify;
+    word-wrap: break-word;
+  }
+  .div-root-about-EducationExperience{
     /*margin-left: 10%;*/
     font-size: 1.5rem;
     text-align: left;
     align-items: left;
     justify-content: left;
   }
-    .div-rootEducationExperienceDetails{
+    .div-root-about-EducationExperience-Details{
       margin-top: 1.5rem;
       margin-bottom: 1.5rem;
       line-height: 2rem;
