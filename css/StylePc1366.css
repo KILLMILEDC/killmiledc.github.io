@@ -194,6 +194,11 @@ h1{
     text-align: justify;
     word-wrap: break-word;
   }
+  @media only screen and (max-width: 850px){
+    .div-root-research-Content{
+      font-size: 1rem;
+    }
+  }
   .div-root-about-EducationExperience{
     /*margin-left: 10%;*/
     font-size: 1.5rem;
