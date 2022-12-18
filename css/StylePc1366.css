@@ -192,7 +192,8 @@ h1{
   .div-root-research-Content{
     max-width: 80vw;
     padding-left: 4vh;
-    text-align: justify;
+    /*text-align: justify;*/
+    text-align: left;
     word-wrap: break-word;
   }
   @media only screen and (max-width: 850px){
