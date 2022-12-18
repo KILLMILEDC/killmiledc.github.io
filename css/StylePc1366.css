@@ -69,6 +69,24 @@ h1{
     grid-auto-flow: row;
   }
 }
+.div-root-project{
+  max-width: 1000px;
+  font-size: 1.5rem;
+}
+@media only screen and (max-width: 850px){
+  .div-root-project{
+    position: initial;
+  }
+}
+.div-root-blog{
+  max-width: 1000px;
+  font-size: 1.5rem;
+}
+@media only screen and (max-width: 850px){
+  .div-root-blog{
+    position: initial;
+  }
+}
 .div-root-research{
   max-width: 1000px;
   font-size: 1.5rem;
@@ -157,6 +175,18 @@ h1{
     display: flex;
     flex-direction: column;
     justify-content: center;
+  }
+  .div-root-project-Content{
+    max-width: 80vw;
+    padding-left: 4vh;
+    text-align: justify;
+    word-wrap: break-word;
+  }
+  .div-root-blog-Content{
+    max-width: 80vw;
+    padding-left: 4vh;
+    text-align: justify;
+    word-wrap: break-word;
   }
   .div-root-research-Content{
     max-width: 80vw;
