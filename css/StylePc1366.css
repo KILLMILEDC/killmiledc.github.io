@@ -52,6 +52,14 @@ h1{
   padding: 0;
   font-weight: 600;
 }
+table{
+  width: 100%;
+  border-collapse: collapse;
+}
+th, td{
+  line-height: 2.4rem;
+  border: 1px dotted #787878c6;
+}
 .div-root{
   max-width: 1000px;
   padding: 10vh 10vw;
@@ -258,6 +266,22 @@ h1{
       font-size: 1.1rem;
     }
   }
+    .div-root-content-Content-table{
+      padding-left: 8vh;
+      padding-top: 1rem;
+      padding-right: 8vh;
+      padding-bottom: 2rem;
+      font-size: 1.3rem;
+    }
+    @media only screen and (max-width: 850px){
+      .div-root-content-Content-table{
+        padding-left: 0;
+        padding-top: 1rem;
+        padding-right: 0;
+        padding-bottom: 2rem;
+        font-size: 1rem;
+      }
+    }
     #div-root-content-Content-abstract{
       font-size: 1.3rem;
       padding-top: 1rem;
@@ -271,12 +295,15 @@ h1{
       }
     }
     #div-root-content-Content-text{
-      padding: 4vh;
+      padding-left: 8vh;
+      padding-top: 2vh;
+      padding-right: 8vh;
       text-align: justify;
     }
     @media only screen and (max-width: 850px){
       #div-root-content-Content-text{
-        padding: 0;
+        padding-left: 0;
+        padding-top: 2vh;
       }
     }
 a:link{color: #283654; text-decoration: none;}
