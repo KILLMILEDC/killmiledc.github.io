@@ -270,6 +270,15 @@ h1{
         padding-bottom: 2rem;
       }
     }
+    #div-root-content-Content-text{
+      padding: 4vh;
+      text-align: justify;
+    }
+    @media only screen and (max-width: 850px){
+      #div-root-content-Content-text{
+        padding: 0;
+      }
+    }
 a:link{color: #283654; text-decoration: none;}
 a:visited{color: #283654;}
 a:focus{transition: color .5s ease-in-out; color: #1f640a;}
