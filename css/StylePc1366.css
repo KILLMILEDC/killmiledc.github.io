@@ -224,18 +224,35 @@ th, td{
   .div-root-project-Content{
     max-width: 80vw;
     padding-left: 4vh;
+    line-height: 2.85rem;
     text-align: justify;
     word-wrap: break-word;
+  }
+  @media only screen and (max-width: 850px){
+    .div-root-project-Content{
+      padding-left: 0;
+      font-size: 1.1rem;
+      line-height: 1.8rem;
+    }
   }
   .div-root-blog-Content{
     max-width: 80vw;
     padding-left: 4vh;
+    line-height: 2.85rem;
     text-align: justify;
     word-wrap: break-word;
+  }
+  @media only screen and (max-width: 850px){
+    .div-root-blogs-Content{
+      padding-left: 0;
+      font-size: 1.1rem;
+      line-height: 1.8rem;
+    }
   }
   .div-root-research-Content{
     max-width: 80vw;
     padding-left: 4vh;
+    line-height: 2.85rem;
     /*text-align: justify;*/
     text-align: left;
     word-wrap: break-word;
@@ -244,6 +261,7 @@ th, td{
     .div-root-research-Content{
       padding-left: 0;
       font-size: 1.1rem;
+      line-height: 1.8rem;
     }
   }
   .div-root-about-EducationExperience{
