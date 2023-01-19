@@ -253,6 +253,14 @@ th, td{
       font-size: 1.1rem;
     }
   }
+  #div-root-blogs-Content-title{
+    padding-bottom: 1.5rem;
+  }
+  @media only screen and (max-width: 850px){
+    #div-root-blogs-Content-title{
+      padding-bottom: 1.1rem;
+    }
+  }
   .div-root-research-Content{
     max-width: 80vw;
     padding-left: 4vh;
@@ -316,16 +324,47 @@ th, td{
         font-size: 1.1rem;
       }
     }
+    .div-root-content-Content-version{
+      max-width: max-content;
+      margin-left: 8vh;
+      margin-top: 1rem;
+      margin-right: 8vh;
+      margin-bottom: 1rem;
+      font-size: 1.6rem;
+      text-align: left;
+    }
+    @media only screen and (max-width: 850px){
+      .div-root-content-Content-version{
+        margin-left: 0;
+        margin-top: 1rem;
+        margin-right: 0;
+        margin-bottom: 1rem;
+        font-size: 1.2rem;
+      }
+    }
+    .div-root-content-Content-version:hover .div-root-content-Content-versionList{
+      display: block;
+    }
+      .div-root-content-Content-versionList{
+        padding: 1rem;
+        font-size: 1.3rem;
+        line-height: 2.6rem;
+        position: absolute;
+        display: none;
+        background-color: #b6d1e3;
+        background-size: cover;
+        border-radius: 5px 0 20px 0;
+      }
     #div-root-content-Content-abstract{
-      font-size: 1.3rem;
       padding-top: 1rem;
       padding-bottom: 2rem;
+      font-size: 1.3rem;
     }
     @media only screen and (max-width: 850px){
       #div-root-content-Content-abstract{
-        font-size: 1rem;
         padding-top: 1rem;
         padding-bottom: 2rem;
+        font-size: 1rem;
       }
     }
     #div-root-content-Content-text{
@@ -348,7 +387,7 @@ th, td{
       padding-left: 8vh;
       padding-top: 1vh;
       padding-right: 8vh;
-      padding-bottom: 10vh;
+      padding-bottom: 1vh;
       font-family: "kalam";
       color: #445069;
       line-height: 2.1rem;
@@ -359,7 +398,25 @@ th, td{
         padding-left: 0;
         padding-top: 1vh;
         padding-right: 0;
-        padding-bottom: 10vh;
+        padding-bottom: 1vh;
+      }
+    }
+    #div-root-content-Content-image{
+      max-width: 92%;
+      max-height: auto;
+      padding-left: 8vh;
+      padding-top: 1vh;
+      padding-right: 8vh;
+      padding-bottom: 1vh;
+      text-align: center
+    }
+    @media only screen and (max-width: 850px){
+      #div-root-content-Content-image{
+        max-width: 100%;
+        padding-left: 0;
+        padding-top: 1vh;
+        padding-right: 0;
+        padding-bottom: 1vh;
       }
     }
 a:link{color: #283654; text-decoration: none;}
