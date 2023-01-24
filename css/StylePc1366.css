@@ -28,6 +28,7 @@ html{
   height: auto;
 }
 body{
+  padding-bottom: 8rem;
   min-height: 100%;
   margin: 0;
   align-items: center;
@@ -367,6 +368,10 @@ th, td{
         font-size: 1rem;
       }
     }
+    #div-root-content-Content-table-abstract{
+      text-align: justify;
+      justify-content: left;
+    }
     #div-root-content-Content-text{
       padding-left: 8vh;
       padding-top: 3vh;
@@ -417,6 +422,22 @@ th, td{
         padding-top: 1vh;
         padding-right: 0;
         padding-bottom: 1vh;
+      }
+    }
+    #div-root-content-Content-attachment{
+      padding-left: 8vh;
+      padding-top: 1.5vh;
+      padding-right: 8vh;
+      padding-bottom: 0vh;
+      line-height: 1.6rem;
+      text-align: justify;
+    }
+    @media only screen and (max-width: 850px){
+      #div-root-content-Content-attachment{
+        padding-left: 0;
+        padding-top: 1vh;
+        padding-right: 0;
+        padding-bottom: 0vh;
       }
     }
 a:link{color: #283654; text-decoration: none;}
