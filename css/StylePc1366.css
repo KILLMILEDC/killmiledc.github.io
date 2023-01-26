@@ -248,16 +248,16 @@ th, td{
     word-wrap: break-word;
   }
   @media only screen and (max-width: 850px){
-    .div-root-blogs-Content{
+    .div-root-blog-Content{
       padding-left: 0;
       font-size: 1.1rem;
     }
   }
-  #div-root-blogs-Content-title{
+  #div-root-blog-Content-title{
     padding-bottom: 1.5rem;
   }
   @media only screen and (max-width: 850px){
-    #div-root-blogs-Content-title{
+    #div-root-blog-Content-title{
       padding-bottom: 1.1rem;
     }
   }
