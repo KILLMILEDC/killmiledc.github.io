@@ -439,6 +439,22 @@ th, td{
         padding-bottom: 0vh;
       }
     }
+    #div-root-content-Content-attachmentEND{
+      padding-left: 8vh;
+      padding-top: 1.5vh;
+      padding-right: 8vh;
+      padding-bottom: 5vh;
+      line-height: 1.6rem;
+      text-align: justify;
+    }
+    @media only screen and (max-width: 850px){
+      #div-root-content-Content-attachmentEND{
+        padding-left: 0;
+        padding-top: 1vh;
+        padding-right: 0;
+        padding-bottom: 3vh;
+      }
+    }
 a:link{color: #283654; text-decoration: none;}
 a:visited{color: #283654;}
 a:focus{transition: color .5s ease-in-out; color: #1f640a;}
