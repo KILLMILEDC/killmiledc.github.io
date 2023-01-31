@@ -1,4 +1,9 @@
 @font-face{
+  font-family: "iconfont";
+  font-style: normal;
+  src: url(../resources/fonts/iconfont.ttf);
+}
+@font-face{
   font-family: "Roboto Condensed";
   font-style: normal;
   font-weight: 400;
@@ -32,11 +37,6 @@
   font-weight: 400;
   font-display: swap;
   src: url(../resources/fonts/RobotoMono-Regular.ttf);
-}
-@font-face{
-  font-family: "iconfont";
-  font-style: normal;
-  src: url(../resources/fonts/iconfont.ttf);
 }
 @font-face {
   font-family: 'Kalam';
