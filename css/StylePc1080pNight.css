@@ -35,7 +35,7 @@ body{
   margin: 0;
   align-items: center;
   justify-content: center;
-  display: flex;
+  /*display: flex;*/
   background-image: linear-gradient(275deg, #2b3241 0%, #1e232e 100%);
   background-size: cover;
   background-attachment: fixed;
@@ -463,3 +463,6 @@ a:visited{color: #f8f3e7;}
 a:focus{transition: color .5s ease-in-out; color: #84bb73;}
 a:hover{color: #84bb73;}
 a:active{color: #84bb73;}
+body{
+  display: flex !important;
+}
