@@ -1,7 +1,7 @@
 @font-face{
   font-family: "iconfont";
   font-style: normal;
-  src: url(../resources/fonts/iconfont.woff2);
+  src: url(../resources/fonts/iconfont.woff2) format("woff2")
 }
 /*@font-face{
   font-family: "Roboto Condensed";
@@ -15,14 +15,14 @@
   font-style: normal;
   font-weight: 300;
   font-display: swap;
-  src: url(../resources/fonts/BadScript-Regular.woff2);
+  src: url(../resources/fonts/BadScript-Regular.woff2) format("woff2")
 }
 @font-face{
   font-family: 'kalam';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(../resources/fonts/Kalam-Regular.woff2);
+  src: url(../resources/fonts/Kalam-Regular.woff2) format("woff2")
 }
 /*@font-face{
   font-family: 'Reenie Beanie';

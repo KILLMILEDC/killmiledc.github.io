@@ -1,14 +1,14 @@
 @font-face{
   font-family: "iconfont";
   font-style: normal;
-  src: url(../resources/fonts/iconfont.ttf);
+  src: url(../resources/fonts/iconfont.woff2) format("woff2")
 }
 @font-face{
   font-family: 'Roboto Mono';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(../resources/fonts/RobotoMono-Regular.ttf);
+  src: url(../resources/fonts/RobotoMono-Regular.woff2) format("woff2")
 }
 *{
   margin: 0;
@@ -19,7 +19,7 @@
   overflow-x:hidden
 }
 *:not(a):not(a*){
-  cursor: default;
+  cursor: default
 }
 #iconfont{
   padding-left: 1rem;
@@ -28,12 +28,12 @@
   font-size: 3rem;
   font-style: normal;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  -moz-osx-font-smoothing: grayscale
 }
 html{
   height: 100%;
   font-size: 62.5%;
-  color: #f8f3e7;
+  color: #f8f3e7
 }
 body{
   min-height: 100%;
@@ -43,12 +43,12 @@ body{
   /*display: flex;*/
   background-image: linear-gradient(275deg, #2b3241 0%, #1e232e 100%);
   background-size: cover;
-  background-attachment: fixed;
+  background-attachment: fixed
 }
 h1{
   max-width: max-content;
   padding: 0;
-  font-weight: 600;
+  font-weight: 600
 }
 .div-root{
   max-width: 1000px;
@@ -56,7 +56,7 @@ h1{
   text-align: center;
   display: grid;
   grid-template-columns: 2fr 3fr;
-  grid-column-gap: 0vw;
+  grid-column-gap: 0vw
 }
 @media only screen and (max-width: 850px){
   .div-root{
@@ -64,7 +64,7 @@ h1{
     position: initial;
     grid-row-gap: 5vh;
     grid-template-columns: 1fr;
-    grid-auto-flow: row;
+    grid-auto-flow: row
   }
 }
 header{
@@ -73,7 +73,7 @@ header{
   align-items: center;
   justify-content: center;
   display: flex;
-  flex-direction: column;
+  flex-direction: column
 }
 #header-Title{
   font-size: 3rem;
@@ -82,7 +82,7 @@ header{
   text-align: center;
   align-items: center;
   display: flex;
-  flex-direction: column;
+  flex-direction: column
 }
 .div-root-Menu{
   font-size: 1.7rem;
@@ -92,16 +92,16 @@ header{
   align-items: center;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: center
 }
 .header-Contact{
-  padding-top: 10%;
+  padding-top: 10%
 }
-a:link{color: #f8f3e7; text-decoration: none;}
-a:visited{color: #f8f3e7;}
-a:focus{transition: color .5s ease-in-out; color: #84bb73;}
-a:hover{color: #84bb73;}
-a:active{color: #84bb73;}
+a:link{color: #f8f3e7; text-decoration: none}
+a:visited{color: #f8f3e7}
+a:focus{transition: color .5s ease-in-out; color: #84bb73}
+a:hover{color: #84bb73}
+a:active{color: #84bb73}
 body{
-  display: flex !important;
+  display: flex !important
 }
