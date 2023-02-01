@@ -3,7 +3,13 @@
   font-style: normal;
   src: url(../resources/fonts/iconfont.ttf);
 }
-@import url('fonts.css');
+@font-face{
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../resources/fonts/RobotoMono-Regular.ttf);
+}
 *{
   margin: 0;
   padding: 0;
