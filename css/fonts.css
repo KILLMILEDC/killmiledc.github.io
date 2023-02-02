@@ -3,13 +3,6 @@
   font-style: normal;
   src: url(../resources/fonts/iconfont.woff) format("woff")
 }
-/*@font-face{
-  font-family: "Roboto Condensed";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(../resources/fonts/RobotoCondensed-Light.ttf);
-}*/
 @font-face{
   font-family: "Bad Script";
   font-style: normal;
@@ -24,13 +17,6 @@
   font-display: swap;
   src: url(../resources/fonts/Kalam-Regular.woff) format("woff")
 }
-/*@font-face{
-  font-family: 'Reenie Beanie';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(../resources/fonts/ReenieBeanie-Regular.ttf);
-}*/
 @font-face{
   font-family: 'Roboto Mono';
   font-style: normal;

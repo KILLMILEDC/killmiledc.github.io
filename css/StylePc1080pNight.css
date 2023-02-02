@@ -1,4 +1,29 @@
-@import url('fonts.css');
+@font-face{
+  font-family: "iconfont";
+  font-style: normal;
+  src: url(../resources/fonts/iconfont.woff) format("woff")
+}
+@font-face{
+  font-family: "Bad Script";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(../resources/fonts/BadScript-Regular.woff) format("woff")
+}
+@font-face{
+  font-family: 'kalam';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../resources/fonts/Kalam-Regular.woff) format("woff")
+}
+@font-face{
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../resources/fonts/RobotoMono-Regular.woff);
+}
 [v-cloak] {
   display: none !important
 }
