@@ -8,7 +8,7 @@
   font-style: normal;
   font-weight: 300;
   font-display: swap;
-  src: url(../resources/fonts/BadScript-Regular.woff) format("woff2")
+  src: url(../resources/fonts/BadScript-Regular.woff2) format("woff2")
 }
 @font-face{
   font-family: 'kalam';
