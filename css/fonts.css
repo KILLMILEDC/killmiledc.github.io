@@ -30,15 +30,15 @@
   font-weight: 400;
   font-display: swap;
   src: url(../resources/fonts/ReenieBeanie-Regular.ttf);
-}
+}*/
 @font-face{
   font-family: 'Roboto Mono';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(../resources/fonts/RobotoMono-Regular.ttf);
+  src: url(../resources/fonts/RobotoMono-Regular.woff);
 }
-@font-face {
+/*@font-face {
   font-family: 'Kalam';
   font-style: normal;
   font-weight: 400;
