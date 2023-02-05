@@ -1,107 +1,121 @@
 @font-face{
-  font-family: "iconfont";
-  font-style: normal;
-  src: url(../resources/fonts/iconfont.woff2) format("woff2")
+font-family: "iconfont";
+font-style: normal;
+src: url(../resources/fonts/iconfont.woff2) format("woff2")
 }
 @font-face{
-  font-family: 'Roboto Mono';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(../resources/fonts/RobotoMono-Regular.woff2) format("woff2")
+font-family: 'Roboto Mono';
+font-style: normal;
+font-weight: 400;
+font-display: swap;
+src: url(../resources/fonts/RobotoMono-Regular.woff2) format("woff2")
 }
 *{
-  margin: 0;
-  padding: 0;
-  font-family: "Roboto Mono";
-  -webkit-user-select: none;
-  user-select: none;
-  overflow-x:hidden
+margin: 0;
+padding: 0;
+font-family: "Roboto Mono";
+-webkit-user-select: none;
+user-select: none;
+overflow-x:hidden
 }
 *:not(a):not(a*){
-  cursor: default
+cursor: default
 }
 #iconfont{
-  padding-left: 1rem;
-  padding-right: 1rem;
-  font-family: "iconfont" !important;
-  font-size: 3rem;
-  font-style: normal;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale
+padding-left: 1rem;
+padding-right: 1rem;
+font-family: "iconfont" !important;
+font-size: 3rem;
+font-style: normal;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale
 }
 html{
-  height: 100%;
-  font-size: 62.5%;
-  color: #f8f3e7
+height: 100%;
+font-size: 62.5%;
+color: #f8f3e7
 }
 body{
-  min-height: 100%;
-  margin: 0;
-  align-items: center;
-  justify-content: center;
-  /*display: flex;*/
-  background-image: linear-gradient(275deg, #2b3241 0%, #1e232e 100%);
-  background-size: cover;
-  background-attachment: fixed
+min-height: 100%;
+margin: 0;
+align-items: center;
+justify-content: center;
+/*display: flex;
+*/
+background-image: linear-gradient(275deg, #2b3241 0%, #1e232e 100%);
+background-size: cover;
+background-attachment: fixed
 }
 h1{
-  max-width: max-content;
-  padding: 0;
-  font-weight: 600
+max-width: max-content;
+padding: 0;
+font-weight: 600
 }
 .div-root{
-  max-width: 1000px;
-  padding: 10vh 10vw;
-  text-align: center;
-  display: grid;
-  grid-template-columns: 2fr 3fr;
-  grid-column-gap: 0vw
+max-width: 1000px;
+padding: 10vh 10vw;
+text-align: center;
+display: grid;
+grid-template-columns: 2fr 3fr;
+grid-column-gap: 0vw
 }
 @media only screen and (max-width: 850px){
-  .div-root{
-    padding: 10vw;
-    position: initial;
-    grid-row-gap: 5vh;
-    grid-template-columns: 1fr;
-    grid-auto-flow: row
-  }
+.div-root{
+padding: 10vw;
+position: initial;
+grid-row-gap: 5vh;
+grid-template-columns: 1fr;
+grid-auto-flow: row
+}
 }
 header{
-  /*width: 100%;*/
-  height: 100%;
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  flex-direction: column
+/*width: 100%;
+*/
+height: 100%;
+align-items: center;
+justify-content: center;
+display: flex;
+flex-direction: column
 }
 #header-Title{
-  font-size: 3rem;
-  user-select: none;
-  font-weight: 600;
-  text-align: center;
-  align-items: center;
-  display: flex;
-  flex-direction: column
+font-size: 3rem;
+user-select: none;
+font-weight: 600;
+text-align: center;
+align-items: center;
+display: flex;
+flex-direction: column
 }
 .div-root-Menu{
-  font-size: 1.7rem;
-  line-height: 5rem;
-  user-select: none;
-  text-align: center;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center
+font-size: 1.7rem;
+line-height: 5rem;
+user-select: none;
+text-align: center;
+align-items: center;
+display: flex;
+flex-direction: column;
+justify-content: center
 }
 .header-Contact{
-  padding-top: 10%
+padding-top: 10%
 }
-a:link{color: #f8f3e7; text-decoration: none}
-a:visited{color: #f8f3e7}
-a:focus{transition: color .5s ease-in-out; color: #84bb73}
-a:hover{color: #84bb73}
-a:active{color: #84bb73}
+a:link{
+color: #f8f3e7;
+text-decoration: none
+}
+a:visited{
+color: #f8f3e7
+}
+a:focus{
+transition: color .5s ease-in-out;
+color: #84bb73
+}
+a:hover{
+color: #84bb73
+}
+a:active{
+color: #84bb73
+}
 body{
-  display: flex !important
+display: flex !important
 }
