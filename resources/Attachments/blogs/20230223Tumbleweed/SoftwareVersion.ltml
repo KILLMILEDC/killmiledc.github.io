@@ -1,4 +1,4 @@
 <!ltml version="1.0">
 <!subset="vml">
-<Section><Software>Tumbleweed</Software><Version>V 1.1.0</Version><UVersion>U 1.1.2023.07.27.11.02.0</UVersion><Point>20230727Tumbleweed</Point></Section>
+<Section><Software>Tumbleweed</Software><Version>V 1.1.0</Version><UVersion>U 1.1.2023.07.27.11.02.0</UVersion><Point>20230806Tumbleweed</Point></Section>
 <Section><Detail>Update summary:<!Enter>1. Refactored case marker;<!Enter>2. Introduced real-time CPU and memory usage display;<!Enter>3. Optimized the software interface and fonts.</Detail></Section>
