@@ -1,6 +1,9 @@
-@font-face{font-family: "iconfont";
+@font-face{font-family: "MainIcon";
 font-style: normal;
-src: url(../resources/fonts/iconfont.woff2) format("woff2")}
+src: url(../resources/fonts/MainIcon.woff2) format("woff2")}
+@font-face{font-family: "ContentIcon";
+font-style: normal;
+src: url(../resources/fonts/ContentIcon.woff2) format("woff2")}
 @font-face{font-family: 'Roboto Mono';
 font-style: normal;
 font-weight: 400;
@@ -13,9 +16,9 @@ font-family: "Roboto Mono";
 user-select: none;
 overflow-x:hidden}
 *:not(a):not(a*){cursor: default}
-#iconfont{padding-left: 1rem;
+#MainIcon{padding-left: 1rem;
 padding-right: 1rem;
-font-family: "iconfont" !important;
+font-family: "MainIcon" !important;
 font-size: 3rem;
 font-style: normal;
 -webkit-font-smoothing: antialiased;
