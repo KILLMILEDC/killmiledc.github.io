@@ -1,6 +1,9 @@
-@font-face{font-family: "iconfont";
+@font-face{font-family: "MainIcon";
 font-style: normal;
-src: url(../resources/fonts/iconfont.woff2) format("woff2")}
+src: url(../resources/fonts/MainIcon.woff2) format("woff2")}
+@font-face{font-family: "ContentIcon";
+font-style: normal;
+src: url(../resources/fonts/ContentIcon.woff2) format("woff2")}
 @font-face{font-family: "Bad Script";
 font-style: normal;
 font-weight: 300;
@@ -24,10 +27,15 @@ font-family: "Roboto Mono";
 user-select: none;
 overflow-x:hidden}
 *:not(a):not(a*){cursor: default}
-#iconfont{padding-left: 1rem;
+#MainIcon{padding-left: 1rem;
 padding-right: 1rem;
-font-family: "iconfont" !important;
+font-family: "MainIcon" !important;
 font-size: 3rem;
+font-style: normal;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale}
+#ContentIcon{padding-right: 1rem;
+font-family: "ContentIcon" !important;
 font-style: normal;
 -webkit-font-smoothing: antialiased;
 -moz-osx-font-smoothing: grayscale}
@@ -189,7 +197,9 @@ word-wrap: break-word}
 @media only screen and (max-width: 850px){.div-root-project-Content{padding-left: 4vh;
 font-size: 1.1rem}
 }
-#div-root-project-Content-title{padding-bottom: 1.5rem}
+#div-root-project-Content-title{padding-left:7.225em;
+text-indent:-7.225em;
+padding-bottom: 1.5rem}
 @media only screen and (max-width: 850px){#div-root-project-Content-title{padding-left:7.225em;
 padding-bottom: 1.1rem;
 text-indent:-7.225em}
@@ -201,23 +211,23 @@ word-wrap: break-word}
 @media only screen and (max-width: 850px){.div-root-blog-Content{padding-left: 4vh;
 font-size: 1.1rem}
 }
-#div-root-blog-Content-title{padding-bottom: 1.5rem}
+#div-root-blog-Content-title{padding-left:7.225em;
+text-indent:-7.225em;
+padding-bottom: 1.5rem}
 @media only screen and (max-width: 850px){#div-root-blog-Content-title{padding-left:7.225em;
 padding-bottom: 1.1rem;
 text-indent:-7.225em}
 }
 .div-root-research-Content{max-width: 80vw;
 padding-left: 4vh;
-line-height: 2.85rem;
-/*text-align: justify;
-*/
-text-align: left;
+text-align: justify;
 word-wrap: break-word}
 @media only screen and (max-width: 850px){.div-root-research-Content{padding-left: 4vh;
-font-size: 1.1rem;
-line-height: 1.8rem}
+font-size: 1.1rem}
 }
-#div-root-research-Content-title{padding-bottom: 1.5rem}
+#div-root-research-Content-title{padding-left:7.225em;
+text-indent:-7.225em;
+padding-bottom: 1.5rem}
 @media only screen and (max-width: 850px){#div-root-research-Content-title{padding-left:7.225em;
 padding-bottom: 1.1rem;
 text-indent:-7.225em}
