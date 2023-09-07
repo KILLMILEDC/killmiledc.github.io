@@ -108,8 +108,8 @@ text-align: center;
 display: grid;
 grid-template-columns: 2fr 3fr;
 grid-column-gap: 10vw;
-animation: fadein 0.5s}
-@keyframes fadein{
+animation: fadeInAnimation 0.5s}
+@keyframes fadeInAnimation{
 0%{
 opacity: 0
 }
@@ -262,8 +262,8 @@ justify-content: left}
 .div-root-content-Content{width: 100vw;
 text-align: center;
 word-wrap: break-word;
-animation: fadein 1s}
-@keyframes fadein{
+animation: fadeInAnimation 1s}
+@keyframes fadeInAnimation{
 0%{
 opacity: 0
 }

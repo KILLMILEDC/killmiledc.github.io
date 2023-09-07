@@ -35,8 +35,8 @@ justify-content: center;
 background-image: linear-gradient(275deg, #2b3241 0%, #1e232e 100%);
 background-size: cover;
 background-attachment: fixed;
-animation: fadein 1s}
-@keyframes fadein{
+animation: fadeInAnimation 1s}
+@keyframes fadeInAnimation{
 0%{
 opacity: 0
 }
