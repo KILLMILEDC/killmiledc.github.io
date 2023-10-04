@@ -1,0 +1,93 @@
+@font-face{font-family: "MainIcon";
+  font-style: normal;
+  src: url(../resources/fonts/MainIcon.woff2) format("woff2")}
+  @font-face{font-family: "ContentIcon";
+  font-style: normal;
+  src: url(../resources/fonts/ContentIcon.woff2) format("woff2")}
+  @font-face{font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../resources/fonts/RobotoMono-Regular.woff2) format("woff2")}
+  *{margin: 0;
+  padding: 0;
+  font-family: "Roboto Mono";
+  -webkit-user-select: none;
+  user-select: none;
+  overflow-x:hidden}
+  *:not(a):not(a*){cursor: default}
+  #MainIcon{padding-left: 1rem;
+  padding-right: 1rem;
+  font-family: "MainIcon" !important;
+  font-size: 3rem;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale}
+  html{height: 100%;
+  font-size: 62.5%;
+  color: #283654}
+  body{min-height: 100%;
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+  /*display: flex;
+  */
+  background-color: #cedee8;
+  background-size: cover;
+  background-attachment: fixed;
+  animation: fadeInAnimationAnimation 1s}
+  @keyframes fadeInAnimation{
+  0%{
+  opacity: 0
+  }
+  100%{
+  opacity: 1
+  }
+  }
+  h1{max-width: max-content;
+  padding: 0;
+  font-weight: 600}
+  .div-root{max-width: 1000px;
+  padding: 10vh 10vw;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  grid-column-gap: 0vw}
+  @media only screen and (max-width: 850px){.div-root{padding: 10vw;
+  position: initial;
+  grid-row-gap: 5vh;
+  grid-template-columns: 1fr;
+  grid-auto-flow: row}
+  }
+  header{/*width: 100%;
+  */
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column}
+  #header-Title{font-size: 3rem;
+  user-select: none;
+  font-weight: 600;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column}
+  .div-root-Menu{font-size: 1.7rem;
+  line-height: 5rem;
+  user-select: none;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center}
+  .header-Contact{padding-top: 10%}
+  a:link{color: #283654;
+  text-decoration: none}
+  a:visited{color: #283654}
+  a:focus{transition: color .5s ease-in-out;
+  color: #186500}
+  a:hover{color: #186500}
+  a:active{color: #186500}
+  body{display: flex !important}
+  

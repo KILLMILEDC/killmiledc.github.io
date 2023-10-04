@@ -107,7 +107,16 @@ padding: 8vh 8vw;
 text-align: center;
 display: grid;
 grid-template-columns: 2fr 3fr;
-grid-column-gap: 10vw}
+grid-column-gap: 10vw;
+animation: fadeInAnimation 0.5s}
+@keyframes fadeInAnimation{
+0%{
+opacity: 0
+}
+100%{
+opacity: 1
+}
+}
 @media only screen and (max-width: 850px){.div-root-about{padding: 10vw;
 position: initial;
 grid-row-gap: 5vh;
@@ -252,7 +261,16 @@ justify-content: left}
 }
 .div-root-content-Content{width: 100vw;
 text-align: center;
-word-wrap: break-word}
+word-wrap: break-word;
+animation: fadeInAnimation 1s}
+@keyframes fadeInAnimation{
+0%{
+opacity: 0
+}
+100%{
+opacity: 1
+}
+}
 @media only screen and (max-width: 850px){.div-root-content-Content{width: 80vw;
 /*padding-left: 0;*/
 margin: 0 auto;
