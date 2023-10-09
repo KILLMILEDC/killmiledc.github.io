@@ -377,6 +377,63 @@ padding-top: 1vh;
 padding-right: 0;
 padding-bottom: 3vh}
 }
+#smap-software{font-size: 85%;
+clear:both;
+color: #49a5badd;
+/**border-style: dotted;**/
+border-color: #deebeebd;
+border-width: 0.1vh
+}
+#smap-software-introduce{font-size: 85%;
+clear:both;
+color: #3e7c86dd;
+/**border-style: dotted;**/
+border-color: #deebeebd;
+border-width: 0.1vh
+}
+#smap-patent{font-size: 85%;
+clear:both;
+color: #367d3ddd;
+/**border-style: dotted;**/
+border-color: #deebeebd;
+border-width: 0.1vh
+}
+#smap-detail{font-size: 85%;
+clear:both;
+color: #8e7e27dd;
+/**border-style: dotted;**/
+border-color: #deebeebd;
+border-width: 0.1vh
+}
+#smap-article{font-size: 85%;
+clear:both;
+color: #8c3794dd;
+/**border-style: dotted;**/
+border-color: #deebeebd;
+border-width: 0.1vh
+}
+#smap-article-generalJournal{font-size: 85%;
+clear:both;
+color: #3980bbdd;
+/**border-style: dotted;**/
+border-color: #deebeebd;
+border-width: 0.1vh
+}
+#smap-article-unvalued{font-size: 85%;
+clear:both;
+color: #144085dd;
+/**border-style: dotted;**/
+border-color: #deebeebd;
+border-width: 0.1vh
+!important
+}
+#smap-article-review{font-size: 85%;
+clear:both;
+color: #458f28dd;
+/**border-style: dotted;**/
+border-color: #deebeebd;
+border-width: 0.1vh
+}
 a:link{color: #283654;
 text-decoration: none}
 a:visited{color: #283654}
