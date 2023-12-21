@@ -1,4 +1,4 @@
 <!ltml version="1.0">
 <!subset="vml">
-<Section><Software>Tumbleweed</Software><Version>V 1.2.0</Version><UVersion>U 1.2.2023.10.09.12.03.0</UVersion><Point>20231009Tumbleweed</Point></Section>
-<Section><Detail>Update summary:<!Enter>1. Increase time display;<!Enter>2. Fix some bugs.</Detail></Section>
+<Section><Software>Tumbleweed</Software><MinVersion>122</MinVersion><Version>V 1.2.2</Version><UVersion>U 1.2.2023.12.21.14.05.2</UVersion><Point>20231009Tumbleweed</Point></Section>
+<Section><Detail>Update summary:<!Enter>1. Optimized the display of the interface.</Detail></Section>
