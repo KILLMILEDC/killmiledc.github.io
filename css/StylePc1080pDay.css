@@ -69,8 +69,7 @@ padding: 0;
 font-weight: 600}
 .h2-about{width: auto;
 padding-bottom: 5%;
-display: grid
-}
+display: grid}
 @media only screen and (max-width: 850px){.h2-about{justify-content: center}
 }
 h3{font-size: 1.25em}
@@ -109,13 +108,8 @@ display: grid;
 grid-template-columns: 2fr 3fr;
 grid-column-gap: 10vw;
 animation: fadeInAnimation 0.5s}
-@keyframes fadeInAnimation{
-0%{
-opacity: 0
-}
-100%{
-opacity: 1
-}
+@keyframes fadeInAnimation{0%{opacity: 0}
+100%{opacity: 1}
 }
 @media only screen and (max-width: 850px){.div-root-about{padding: 10vw;
 position: initial;
@@ -241,16 +235,14 @@ padding-bottom: 1.5rem}
 padding-bottom: 1.1rem;
 text-indent:-7.225em}
 }
-.div-root-about-EducationExperience{/*margin-left: 10%;
-*/
-font-size: 1.5rem;
+.div-root-about-EducationExperience{font-size: 1.5rem;
 text-align: left;
 align-items: left;
 display: flex;
 flex-direction: column;
 justify-content: left}
 @media only screen and (max-width: 850px){.div-root-about-EducationExperience{font-size: 1.5rem;
-text-align: left;
+text-align: center;
 align-items: center;
 justify-content: center}
 }
@@ -263,16 +255,12 @@ justify-content: left}
 text-align: center;
 word-wrap: break-word;
 animation: fadeInAnimation 1s}
-@keyframes fadeInAnimation{
-0%{
-opacity: 0
-}
-100%{
-opacity: 1
-}
+@keyframes fadeInAnimation{0%{opacity: 0}
+100%{opacity: 1}
 }
 @media only screen and (max-width: 850px){.div-root-content-Content{width: 80vw;
-/*padding-left: 0;*/
+/*padding-left: 0;
+*/
 margin: 0 auto;
 font-size: 1.2rem}
 }
@@ -380,60 +368,59 @@ padding-bottom: 3vh}
 #smap-software{font-size: 85%;
 clear:both;
 color: #49a5badd;
-/**border-style: dotted;**/
+/**border-style: dotted;
+**/
 border-color: #deebeebd;
-border-width: 0.1vh
-}
+border-width: 0.1vh}
 #smap-software-introduce{font-size: 85%;
 clear:both;
 color: #3e7c86dd;
-/**border-style: dotted;**/
+/**border-style: dotted;
+**/
 border-color: #deebeebd;
-border-width: 0.1vh
-}
+border-width: 0.1vh}
 #smap-patent{font-size: 85%;
 clear:both;
 color: #367d3ddd;
-/**border-style: dotted;**/
+/**border-style: dotted;
+**/
 border-color: #deebeebd;
-border-width: 0.1vh
-}
+border-width: 0.1vh}
 #smap-detail{font-size: 85%;
 clear:both;
 color: #8e7e27dd;
-/**border-style: dotted;**/
+/**border-style: dotted;
+**/
 border-color: #deebeebd;
-border-width: 0.1vh
-}
+border-width: 0.1vh}
 #smap-article{font-size: 85%;
 clear:both;
 color: #8c3794dd;
-/**border-style: dotted;**/
+/**border-style: dotted;
+**/
 border-color: #deebeebd;
-border-width: 0.1vh
-}
+border-width: 0.1vh}
 #smap-article-generalJournal{font-size: 85%;
 clear:both;
 color: #3980bbdd;
-/**border-style: dotted;**/
+/**border-style: dotted;
+**/
 border-color: #deebeebd;
-border-width: 0.1vh
-}
+border-width: 0.1vh}
 #smap-article-unvalued{font-size: 85%;
 clear:both;
 color: #144085dd;
-/**border-style: dotted;**/
+/**border-style: dotted;
+**/
 border-color: #deebeebd;
-border-width: 0.1vh
-!important
-}
+border-width: 0.1vh!important}
 #smap-article-review{font-size: 85%;
 clear:both;
 color: #458f28dd;
-/**border-style: dotted;**/
+/**border-style: dotted;
+**/
 border-color: #deebeebd;
-border-width: 0.1vh
-}
+border-width: 0.1vh}
 a:link{color: #283654;
 text-decoration: none}
 a:visited{color: #283654}

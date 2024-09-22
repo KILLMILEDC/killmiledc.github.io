@@ -36,13 +36,8 @@ background-image: linear-gradient(275deg, #2b3241 0%, #1e232e 100%);
 background-size: cover;
 background-attachment: fixed;
 animation: fadeInAnimation 1s}
-@keyframes fadeInAnimation{
-0%{
-opacity: 0
-}
-100%{
-opacity: 1
-}
+@keyframes fadeInAnimation{0%{opacity: 0}
+100%{opacity: 1}
 }
 h1{max-width: max-content;
 padding: 0;
